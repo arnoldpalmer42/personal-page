@@ -1,5 +1,64 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("assets/background.jpg") no-repeat;
+    
+    /*background-size: cover;
+    background: url("assets/background.jpg") no-repeat;*/
+    background: rgb(223,94,123);
+background: linear-gradient(90deg, rgba(223,94,123,1) 58%, rgba(148,187,233,1) 100%);
+}
+
+.box {
+    width: 450px;
+    background: rgba(0, 0 ,0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 4px;
+}
+
+.box img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1 {
+    font-size: 42px;
+    letter-spacing: .1px;
+    font-weight: 150;
+}
+
+.box h5 {
+    font-size: 24px;
+    letter-spacing: .2px;
+    font-weight: 100;
+}
+
+.box p {
+    text-align: justify;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(195, 204, 243, 0.904);
+    font-size: 24px;
+}
+
+a:hover {
+    color: white;
 }
